@@ -6,7 +6,7 @@ namespace App\Application\Sort;
 
 class BubbleSort implements SortInterface
 {
-    /**
+    /*
      * $swapped - if after a sorting loop nothing has been sorted, there is no need for more sorting
      * $newBound - shorten the loop to the last successful swap
      */
