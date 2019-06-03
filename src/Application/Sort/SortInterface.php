@@ -6,5 +6,5 @@ namespace App\Application\Sort;
 
 interface SortInterface
 {
-    public function sort(array &$sortable);
+    public function sort(array &$sortable): void;
 }

@@ -10,7 +10,7 @@ class BubbleSort implements SortInterface
      * $swapped - if after a sorting loop nothing has been sorted, there is no need for more sorting
      * $newBound - shorten the loop to the last successful swap
      */
-    public function sort(array &$sortable)
+    public function sort(array &$sortable): void
     {
         $arrayLength = count($sortable);
         $bound = $arrayLength - 1;

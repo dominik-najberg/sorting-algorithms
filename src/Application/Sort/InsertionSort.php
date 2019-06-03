@@ -15,7 +15,7 @@ namespace App\Application\Sort;
 
 class InsertionSort implements SortInterface
 {
-    public function sort(array &$sortable)
+    public function sort(array &$sortable): void
     {
         $arrayLength = count($sortable);
 
